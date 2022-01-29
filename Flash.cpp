@@ -46,5 +46,6 @@ int main(){
 void change(){
     system("service tor reload");
     system("curl --preproxy socks5://127.0.0.1:9050  \"https://www.myexternalip.com/raw\"");
+	cout<<endl;
 
 }
